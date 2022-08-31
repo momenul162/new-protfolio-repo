@@ -1,0 +1,83 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFF5E4;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.header-div {
+    width: 50%;
+}
+
+.header-div img {
+    height: 520px;
+    width: 500px;
+}
+
+.header-div span {
+    color: tomato;
+}
+
+.section-one {
+    display: flex;
+    padding-left: 60px;
+    background-image: url(images/workplace.jpg);
+    padding-bottom: 100px;
+    box-shadow: 10px 10px 40px #756252;
+
+}
+
+.section-two {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.second-div {
+    width: 40%;
+    margin-left: 80px;
+    padding-left: 50px;
+
+}
+
+.second-div img {
+    height: 450px;
+    width: 600px;
+    border-radius: 50px;
+}
+
+#cat-shadow {
+    box-shadow: 10px 10px 40px black;
+    border-radius: 50px;
+}
+
+#section-three {
+    display: flex;
+    background-image: url(images/coffee-cup.jpg);
+    margin-bottom: 80px;
+    padding-bottom: 320px;
+    box-shadow: 10px 10px 40px white;
+}
+
+.third-div {
+    margin-left: 50px;
+    padding: 20px;
+}
+
+.third-div img {
+    height: 500px;
+    width: 600px;
+    border-radius: 90%;
+}
+
+#para-id {
+    width: 1000px;
+}
