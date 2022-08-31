@@ -6,10 +6,22 @@ body {
 
 h1 {
     font-size: 50px;
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+    padding-left: 10px;
 }
 
 h2 {
     font-size: 40px;
+}
+
+p {
+    margin-bottom: 30px;
+}
+
+.header-class {
+    color: tomato;
 }
 
 .header-div {
@@ -23,6 +35,15 @@ h2 {
 
 .header-div span {
     color: tomato;
+}
+
+.batton {
+    color: antiquewhite;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px 40px;
+    background-image: linear-gradient(tomato, salmon);
+    border-radius: 10px;
 }
 
 .section-one {
@@ -59,18 +80,15 @@ h2 {
     border-radius: 50px;
 }
 
-#section-three {
-    display: flex;
+.third-div {
+    margin-left: 125px;
+    margin-bottom: 100px;
+    padding: 20px 20px 330px;
     background-image: url(images/coffee-cup.jpg);
-    margin-bottom: 80px;
-    padding-bottom: 320px;
+    background-repeat: no-repeat;
     box-shadow: 10px 10px 40px white;
 }
 
-.third-div {
-    margin-left: 50px;
-    padding: 20px;
-}
 
 .third-div img {
     height: 500px;
